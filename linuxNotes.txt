@@ -1,0 +1,68 @@
+SSH stands for Secure Shell ,it is a network protocol used to connect to other linux system or server (it has replaced tELNEt)
+
+LINUX Directories
+
+/ ;- root,the top of file system heirarchy
+
+/bin :- BInaries and other executable files
+
+/etc :- system configuration files
+
+/home :- home directories
+
+/opt :- optional or third party spftware
+
+/tmp :- temporary files ,gets cleaned at rebbot
+
+/usr :- user related files ,programs
+
+/var :- variable data most notably logs
+
+
+
+There are two ROOTS
+
+one is the top folder 
+and second one is the TOP USER or like admin in WiNDOWS
+
+
+Common Linux COmmands :-
+
+ls :-lists directory contents
+
+cd :- changes the current directory
+
+pwd :- displays the present working directory
+
+cat:- concatenates and siplays the files
+
+echo :- Displays arguments to the screen 
+
+man :- displays the online manual
+
+exit :- exits the shell
+
+clear :- clears the screen
+
+
+
+
+PATH
+
+it is an environment variable
+
+it contains directories which are separated with : 
+
+if a command is written and enter is pressed  then the command is searched in all the directories that are present in the path variable
+
+if it is found in the first one then ok if not then the next one is searched and so on 
+
+
+controls the search path 
+
+the command should exist in atleast one durectory to be executed
+
+
+
+WHICH command is used to find where a command is present 
+like PATH has directories then which ls will tell us where the ls command is present or stored
