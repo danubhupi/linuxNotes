@@ -87,3 +87,18 @@ Cant remove non empty directories
 to remove non empty directories use 
 
 rm -rf :- removes directories recursively
+
+ls -l :- long listing format 
+
+ls -a :- for lsiting of hidden files as well
+
+ls -F :- lists the type of file as well 
+/  means a directory 
+@ means a link 
+* means a executable
+
+ls -t :- lists files by time
+
+ls -r :- lists file in reverse
+
+ls -latr :- all by time in reverse in long listing
