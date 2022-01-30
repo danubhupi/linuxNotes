@@ -66,3 +66,24 @@ the command should exist in atleast one durectory to be executed
 
 WHICH command is used to find where a command is present 
 like PATH has directories then which ls will tell us where the ls command is present or stored
+
+
+..  represents the parent directory
+.   is the current directory
+/   is the directory separator
+cd - will tale you to the previous directory you were in
+
+mkdir :-- used to make directories   Ex :- mkdir newDir
+
+mkdir -p ;- used to make directories with children directories inside  mkdir -p parentDir/ChildDIr/grandparentDir
+
+rmdir :- used to delete directories
+ 
+rmdir -p :- used to delete directories with their children
+
+Cant remove non empty directories
+
+
+to remove non empty directories use 
+
+rm -rf :- removes directories recursively
